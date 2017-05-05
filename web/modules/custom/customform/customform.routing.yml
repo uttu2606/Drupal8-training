@@ -1,0 +1,20 @@
+customform.form: 
+  path: '/static-content' 
+  defaults: 
+    _controller: '\Drupal\customform\Controller\FormController::staticContent'
+
+customform.dynamic:
+  path: '/arg-demo/{arg}'
+  defaults:
+    _controller: '\Drupal\customform\Controller\FormController::dynamicContent'
+    arg: uttkarsh
+  requirements:
+    _permission: 'access content'
+
+customform.entity:
+  path: '/list/{node}'
+  defaults:
+    _controller: '\Drupal\customform\Controller\FormController::upcastedContent'
+    node: 1
+  requirements:
+    _custom_access: 'Drupal\customform\Controller\FormController::nodeAccessCheck'

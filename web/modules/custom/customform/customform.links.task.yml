@@ -1,0 +1,9 @@
+customform.tab1: 
+  title: 'My actions Tab 1'
+  route_name: customform.form
+  base_route: customform.tab1
+
+customform.tab2:
+  title: 'My actions Tab 2'
+  route_name: customform.dynamic
+  base_route: customform.tab1

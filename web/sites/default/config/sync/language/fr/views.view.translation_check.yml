@@ -1,0 +1,6 @@
+label: 'translation check french'
+display:
+  page_1:
+    display_options:
+      menu:
+        title: 'Trnaslation check frn'

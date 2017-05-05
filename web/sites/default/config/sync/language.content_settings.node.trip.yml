@@ -1,0 +1,16 @@
+uuid: a9a59fde-193b-487b-bfba-cb8de753042a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.trip
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.trip
+target_entity_type_id: node
+target_bundle: trip
+default_langcode: site_default
+language_alterable: true

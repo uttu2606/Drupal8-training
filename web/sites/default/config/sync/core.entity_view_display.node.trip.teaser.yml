@@ -1,0 +1,27 @@
+uuid: 1126e821-ed9e-41b3-8b4e-180c06281c5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.trip.body
+    - node.type.trip
+  module:
+    - text
+    - user
+id: node.trip.teaser
+targetEntityType: node
+bundle: trip
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  langcode: true

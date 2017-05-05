@@ -1,0 +1,20 @@
+uuid: fd46ac09-f16a-4913-9d6b-0c92c807134c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.trip
+  module:
+    - text
+id: taxonomy_term.trip.description
+field_name: description
+entity_type: taxonomy_term
+bundle: trip
+label: Description
+description: 'A description of the term.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

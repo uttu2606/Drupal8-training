@@ -1,0 +1,25 @@
+uuid: 731b68f3-cf24-47f6-a0d5-4c3a9d212bbc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ac1b7458-1eeb-442d-90dd-0ceb7971add0'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: aroundtrips
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:ac1b7458-1eeb-442d-90dd-0ceb7971add0'
+settings:
+  id: 'block_content:ac1b7458-1eeb-442d-90dd-0ceb7971add0'
+  label: 'Around Trips'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

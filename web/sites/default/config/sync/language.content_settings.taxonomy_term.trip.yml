@@ -1,0 +1,16 @@
+uuid: e7467d55-1937-4416-ba48-f705d13067b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.trip
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.trip
+target_entity_type_id: taxonomy_term
+target_bundle: trip
+default_langcode: site_default
+language_alterable: true

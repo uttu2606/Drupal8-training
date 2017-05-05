@@ -1,0 +1,5 @@
+customform.static_menu_link:
+  title: 'Static Content'
+  description: 'This is my static content.'
+  route_name: customform.form
+  parent: system.admin_config_system

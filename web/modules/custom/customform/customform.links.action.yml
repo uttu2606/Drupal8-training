@@ -1,0 +1,5 @@
+customform.actioncustom:
+  route_name: node.add_page
+  title: 'Add Content'
+  appears_on:
+    - customform.entity

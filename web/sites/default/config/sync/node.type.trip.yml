@@ -1,0 +1,18 @@
+uuid: bd929f73-d47d-4a19-8ffe-3643789c83ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Trip
+type: trip
+description: 'Trip the way you want'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

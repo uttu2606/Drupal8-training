@@ -1,0 +1,9 @@
+uuid: 3a2458c2-1d3b-4e5c-9515-e7a3ae13959b
+langcode: en
+status: true
+dependencies: {  }
+name: Trip
+vid: trip
+description: 'Type of trip'
+hierarchy: 0
+weight: 0
