@@ -18,3 +18,26 @@ customform.entity:
     node: 1
   requirements:
     _custom_access: 'Drupal\customform\Controller\FormController::nodeAccessCheck'
+    
+customform.firstform:
+  path: '/simple-form'
+  defaults:
+    _form: 'Drupal\customform\Form\mysimpleform'
+  requirements:
+    _permission: 'access content'
+
+customform.db_form:
+  path: '/db-form'
+  defaults:
+    _form: '\Drupal\customform\Form\dbform'
+    _title: 'dbform'
+  requirements:
+    _access: 'TRUE'
+
+customform.newform:
+  path: '/new-form'
+  defaults:
+    _form: '\Drupal\customform\Form\NewForm'
+    _title: 'Weather Api Configuration'
+  requirements:
+    _access: 'TRUE'

@@ -4,3 +4,17 @@ services:
     arguments: ['@current_user']
     tags:
       - { name: 'access_check', applies_to: '_node_creator_check'}
+      
+  customform.dbwrapper:
+    class: Drupal\customform\DbWrapper
+    arguments: ['@database']
+
+  customform.weather:
+    class: Drupal\customform\Weather
+    arguments: ['@config.factory', '@http_client']
+
+  customform.event:
+    class: Drupal\customform\EventSubscriber\AccessHeaderInjector
+    arguments:
+    tags:
+      - { name: 'event_subscriber' }
