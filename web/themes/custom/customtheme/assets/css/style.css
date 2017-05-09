@@ -1,0 +1,15 @@
+body {
+	background-color: grey;
+	font-color: red;
+}
+.page-content .content , .left_region , .right_region {
+	display: inline-flex;
+}
+.region {
+	border: 1px solid red;
+}
+
+
+.region .footer {
+	display: inline-block;
+}
